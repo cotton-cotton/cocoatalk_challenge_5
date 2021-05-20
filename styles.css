@@ -1,0 +1,142 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&family=Open+Sans:wght@400;600&display=swap");
+body {
+	width: 530px;
+	height: 1000px;
+	border: 7px solid turquoise;
+	font-family: "Cairo", sans-serif;
+}
+.status-bar {
+	display: flex;
+	margin-top: 40px;
+}
+.status-bar__top {
+	width: 28%;
+}
+.status-bar__top:first-child {
+	display: flex;
+	justify-content: flex-start;
+	margin: 25px 8px 0px 33px;
+}
+.status-bar__top:last-child {
+	margin: 5px 10px;
+	display: flex;
+	justify-content: center;
+	font-weight: 100px;
+}
+.status-bar__top span {
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin-top: 0px;
+}
+.status-bar-image {
+	display: flex;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.playlist {
+	display: flex;
+	flex-direction: column;
+}
+
+.Playlist__img {
+	width: 180px;
+	height: 190px;
+	background-color: orange;
+	border-radius: 20%;
+	border: 3px solid black;
+	display: flex;
+}
+.status-bar-image .fa-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 55px;
+	color: white;
+}
+.Playlist {
+	width: 150px;
+	height: 190px;
+	margin: -30px 0px 0px 50px;
+	margin-top: -30px;
+}
+.random {
+	font-size: 45px;
+	line-height: 50px;
+}
+.by {
+	font-size: 20px;
+	margin-top: -30px;
+	font-weight: bold;
+}
+.status-bar-center {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	margin-left: -20px;
+}
+.status-bar__button-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 230px;
+	height: 85px;
+	border: 2px solid black;
+	border-radius: 15px;
+	border-width: 2px 2.5px 7px 2.5px;
+}
+.status-bar__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	border: 2px solid black;
+	border-radius: 90%;
+	border-width: 2px 2.5px 7px 2.5px;
+}
+.status-bar__button-1 span {
+	margin-left: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+li {
+	list-style: none;
+}
+.box__first {
+	width: 90px;
+	height: 90px;
+	border: 2px solid black;
+	border-radius: 13%;
+}
+.matargasti {
+	background-color: tomato;
+}
+.attitude {
+	background-color: rgb(221, 190, 221);
+}
+.everthing {
+	background-color: rgba(0, 60, 255, 0.856);
+}
+.sunflower {
+	background-color: rgb(40, 179, 179);
+}
+.box-title {
+	width: 200px;
+	height: 20px;
+	margin-left: 150px;
+}
+.box {
+	margin: 25px 0px 20px 20px;
+}
+
+.main {
+	font-size: 25px;
+	font-weight: bold;
+}
+.second {
+	margin-top: 22px;
+	color: grey;
+}
